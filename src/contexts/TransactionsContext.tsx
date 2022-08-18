@@ -6,7 +6,7 @@ interface Transacion {
   type: 'income' | 'outcome',
   price: number,
   category: string,
-  createAt: string
+  createdAt: string
 }
 
 interface TransactionsContextType {
